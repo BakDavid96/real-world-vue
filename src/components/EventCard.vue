@@ -2,13 +2,12 @@
 
 <script>
 export default {
-    data(){
-        return {
-            quote: "blabal"
-        }
+  data() {
+    return {
+      quote: 'blabal',
     }
-};
+  },
+}
 </script>
 
-<style>
-</style>
+<style></style>

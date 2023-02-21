@@ -1,24 +1,26 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import AboutView from '../views/AboutView.vue'
+import EventList from '../views/EventList.vue'
+import EventCreate from '../views/EventCreate.vue'
+import EventShow from '../views/EventShow.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView,
+    name: 'event-list',
+    component: EventList,
   },
   {
-    path: '/about-us',
-    name: 'about',
-    component: AboutView,
+    path: '/event',
+    name: 'event-show',
+    component: EventShow,
   },
   {
-    path: '/about',
-    redirect: { name: 'about' },
+    path: '/event/create',
+    name: 'event-create',
+    component: EventCreate,
   },
 ]
 

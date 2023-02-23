@@ -71,6 +71,34 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 6680006,
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Test",
+      "description": "test",
+      "location": "home",
+      "date": "2023-02-02T12:32:00.000Z",
+      "time": "1:00",
+      "attendees": []
+    },
+    {
+      "id": 2540093,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Correct Test",
+      "description": "This is my correct test event",
+      "location": "Test Land",
+      "date": "2023-02-04T12:40:00.000Z",
+      "time": "2:00",
+      "attendees": []
     }
   ]
 }
